@@ -29,16 +29,16 @@ $theme-colors: (
 );
 
 // 各テーマカラーに対するテキスト色 (WCAG AAコントラスト基準に基づく)
-$theme-color-contrast:
-  "primary":        #ffffff,
-  "secondary":      #000000,
-  "success":        #ffffff,
-  "info":           #000000,
-  "warning":        #000000,
-  "danger":         #000000,
-  "light":          #000000,
-  "dark":           #ffffff,
-;
+$theme-color-contrast: (
+  "primary": #ffffff,
+  "secondary": #000000,
+  "success": #ffffff,
+  "info": #000000,
+  "warning": #000000,
+  "danger": #000000,
+  "light": #000000,
+  "dark": #ffffff,
+);
 
 // 一般的なテキストとリンクの色 ($body-bgとのコントラストを確保)
 $body-color: #212529; // $body-bgとの良好なコントラストを確保
